@@ -1,0 +1,85 @@
+body{
+    background: url(img/back.png);
+    
+
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(22, 180, 154);
+    color: aliceblue;
+    
+    border-radius: 5px;
+}
+
+#google{
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.card{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 gray;
+}
+
+.floating-label-group {
+
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 35px;
+
+}
+
+
+
+.floating-label {
+    font-size: 15px;
+    color: #cccccc;
+    position: absolute;
+    pointer-events: none;
+    top: 9px;
+    left: 12px;
+    transition: all 0.1s ease;
+    
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+
+    top: -17px;
+    bottom: 0px;
+    left: 8px;
+    font-size: 15px;
+    background-color: white;
+    height: 20px;
+    padding: 1px;
+    
+    
+   
+    opacity: 1;
+    color: #0c97e7;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+#email, #password{
+    border-radius: 5px; }
+
+    
+#singup{
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
